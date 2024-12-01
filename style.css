@@ -1,210 +1,185 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-nav{
-    background-color: rgb(255, 255, 255);
-    height: 80px;
-    width: 100% ;
-    position: fixed;
+nav {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 100%;
+  position: fixed;
 }
-
-
 
 nav ul li {
-    display:inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
 
-
-nav ul{
-    float: right;
-    margin-right: 55px ;
+nav ul {
+  float: right;
+  margin-right: 55px;
 }
-
 
 nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-   padding: 7px 13px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 13px;
 }
 
-
-label.logo{
-    color: black;
-    font-size: 40px;
-    font-weight: 1000;
-    line-height: 80px;
-    padding: 0 100px;   
+label.logo {
+  color: black;
+  font-size: 40px;
+  font-weight: 1000;
+  line-height: 80px;
+  padding: 0 100px;
 }
 
-.checkButton{
-    font-size: 30px;
-    color: black;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-
+.checkButton {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
 
-.myCheckBox{
-    display: none;
+.myCheckBox {
+  display: none;
 }
 
-a:hover,a:active{
-     color: #f7c324;
-
+a:hover,
+a:active {
+  color: #f7c324;
 }
-
-
-
 
 .page1 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    background-image: url(./2335678.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-image: url(./2335678.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .boldTxt {
-    font-size: 3rem;
-    font-weight: 600;
-    color: #000;
-    line-height: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 3rem;
 }
 
 .lightTxt {
-    font-size: 3rem;
-    font-weight: 200;
-    color: #000;
-    line-height: 3rem;
-    letter-spacing: -.1rem;
+  font-size: 3rem;
+  font-weight: 200;
+  color: #000;
+  line-height: 3rem;
+  letter-spacing: -0.1rem;
 }
 
 .page1 button {
-    padding: 1rem 3rem;
-    margin: 1.6rem;
-    color: #fff;
-    background-color: #000;
-
+  padding: 1rem 3rem;
+  margin: 1.6rem;
+  color: #fff;
+  background-color: #000;
 }
 
 #page2 {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 4rem;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+  align-items: center;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
 }
 
 .logoBox {
-    width: 80px;
-    height: 80px;
-    margin: 20px;
-    border: 3px solid black;
-    border-radius: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border: 3px solid black;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card p {
-    font-size: .8rem;
-    margin: 8px 0;
+  font-size: 0.8rem;
+  margin: 8px 0;
 }
 
-.underlined{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.underlined {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.underlined::after{
-    content:"" ;
-    border: 3px rgb(136 176 255) solid;
-    display: block;
-    margin: 20px auto ;
-    width: 15%;
+.underlined::after {
+  content: "";
+  border: 3px rgb(136 176 255) solid;
+  display: block;
+  margin: 20px auto;
+  width: 15%;
 }
-
 
 .para {
-    text-align: center;
-    padding: 3px;
-    text-indent: 20px;
+  text-align: center;
+  padding: 3px;
+  text-indent: 20px;
 }
-
-
-
-
-  
-
 
 .video {
-    align-items: center;
-    margin-left: auto;
-   width: fit-content;
-    height: 60vh;
-    object-fit: cover;
-    z-index: -1;
-    margin-left: 12%;
+  align-items: center;
+  margin-left: auto;
+  width: fit-content;
+  height: 60vh;
+  object-fit: cover;
+  z-index: -1;
+  margin-left: 12%;
 }
-
-
-
 
 .sec-content-slide1,
 .sec-content-slide2 {
-    width: 430px;
-    height: 260px;
-    box-shadow: 3px 2px 8px;
+  width: 430px;
+  height: 260px;
+  box-shadow: 3px 2px 8px;
 }
 
-.seccontent{
-    display: flex;
-    flex-direction: row;
-   padding-top: 150px;
-    justify-content: center;
-    margin: 40px;
-    gap: 140px;
+.seccontent {
+  display: flex;
+  flex-direction: row;
+  padding-top: 150px;
+  justify-content: center;
+  margin: 40px;
+  gap: 140px;
 }
 
 .sec-content-slide1 {
-    background-image: url(./photo2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./photo2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.sec-content-slide2{
-    background-image: url(./2960611.jpg);
-    background-size: cover;
-
+.sec-content-slide2 {
+  background-image: url(./2960611.jpg);
+  background-size: cover;
 }
 
 .sec-content-slide-2-content,
@@ -215,270 +190,221 @@ a:hover,a:active{
   text-align: center;
 }
 
+.seccontent h1::after {
+  content: "";
+  border: 3px rgb(136 176 255) solid;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
 
- .seccontent h1::after{
-    content:"" ;
-    border: 3px rgb(136 176 255) solid;
-    display: block;
-    margin: 20px auto ;
-    width: 50%;
-    
- }
-
- .sec-content h2,
- .sec-content p {
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-left: 20px;
-   margin-right: 20px;
- }
+.sec-content h2,
+.sec-content p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .button-slide1,
-.button-slide2{
-          color:white;
-          outline: none;
-          padding: 4px;
-          border: rgb(136 176 255) 2px solid;
-          border-radius: 20px;
-          cursor: pointer;
-          width: 90px;
-          height: 35px;
-          margin-top: 30px;
-          background-color: blue;
-}  
-
-
- .heard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 90px;
-    text-align: center;
- } 
- 
- .heard h3{
-      font-size: 20px;
-      margin: 21px;
-      text-transform: uppercase;
-
-
-
- }
-
- .heard h3::after {
-    content: "";
-    border: 3px rgb(136 176 255) solid;
-    display: block;
-    margin: 10px auto;
-    width: 70%;
-  }
-
-  .heard p{
-    margin-bottom: 50px;
-  }
-
- .started{
-    
-        border: rgb(99, 173, 242) 2px solid;
-        outline: none;
-        padding: 3px;
-        color: rgb(99, 173, 242);
-        width: 100px;
-        height: 50px;
-        border-radius: 5px;
-        cursor: pointer;   
- }
-
- 
- .heard Button{
-    width: max-content;
-    background-color: blue;
-    border: none;
-    border-radius: 25px;
-    padding: 8px 26px 8px 26px;
-    color: white;
-    font-size: medium;
-
-
- }
-
-
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    gap: 50px;
-    padding: 50px;
-    background-color: rgb(216,214,214);
+.button-slide2 {
+  color: white;
+  outline: none;
+  padding: 4px;
+  border: rgb(136 176 255) 2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 90px;
+  height: 35px;
+  margin-top: 30px;
+  background-color: blue;
 }
- 
-.footer div{
-    display: flex;
-    flex-direction: column;
+
+.heard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 90px;
+  text-align: center;
+}
+
+.heard h3 {
+  font-size: 20px;
+  margin: 21px;
+  text-transform: uppercase;
+}
+
+.heard h3::after {
+  content: "";
+  border: 3px rgb(136 176 255) solid;
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+}
+
+.heard p {
+  margin-bottom: 50px;
+}
+
+.started {
+  border: rgb(99, 173, 242) 2px solid;
+  outline: none;
+  padding: 3px;
+  color: rgb(99, 173, 242);
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.heard Button {
+  width: max-content;
+  background-color: blue;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 26px 8px 26px;
+  color: white;
+  font-size: medium;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  background-color: rgb(216, 214, 214);
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer a {
-margin: 5px;
-text-decoration: none;
-color: rgb(0,0,0);
-
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
-
 
 .footer h2 {
-    margin: 5px;
-    align-items: end;
+  margin: 5px;
+  align-items: end;
 }
 
+@media (max-width: 620px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .close {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .checkButton {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(247, 218, 223);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .myCheckBox ~ ul {
+    left: 0;
+  }
+
+  .page1 h3 {
+    font-size: 30px;
+  }
+
+  #page2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 70vw;
+  }
+
+  .seccontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: rgb(216, 214, 214);
+    align-items: center;
+  }
+
+  .video {
+    align-items: baseline;
+    width: 100vh;
+    margin: 0;
+  }
+  .video video {
+    width: 100%;
+    margin: 0;
+  }
 
 
-
-@media (max-width:720px){
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;      
-    }
-
- nav ul li a{
-     font-size: 16px;
-
- }   
-      
-    .checkButton{
-        display: block;
-    
-      }
-    
-      ul{
-         position:fixed;
-         width: 100%;
-         height: 100vh;
-         background-color: rgb(247, 218, 223);
-         top:80px;
-         left: -100%;
-         text-align: center;
-         transition: all .5s;
-    
-      }
-    
-      nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    
-      }
-    
-      nav ul li a{
-        font-size: 20px;
-        color: black;
-      }
-    
-      
-    
-      .myCheckBox ~ ul{
-       left: 0;
-
-      }
-    
-    .page1 h3{
-        font-size: 30px;
-    }
-
-
-    #page2 {
-        display: flex;
-        flex-direction: column;
-    
-    }
-
-    .card{
-        width: 70vw;
-    }
-
-    .seccontent {
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-
-    }
-
-    .footer{
-        display: flex;
-        flex-direction:column;
-        justify-content:center;
-        gap: 50px;
-        padding: 50px;
-        background-color: rgb(216,214,214);
-        align-items: center;
-    
-    }
-
-
- .video{  
- align-items: baseline;
-}
-
-.logo {
+  .logo {
     font-size: 50px;
     font-weight: bold;
     margin-top: 50px;
     margin-left: 50px;
-}
+  }
 
-.heard{
+  .heard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 90px;
     text-align: center;
+  }
 
- } 
-
- .footer a {
+  .footer a {
     margin: 5px;
     text-decoration: none;
-    color: rgb(55, 5, 233);   
-    }
+    color: rgb(55, 5, 233);
+  }
 
- .heard h3{
-      font-size: 15px;
-      margin: 21px;
-      text-transform: uppercase;
+  .heard h3 {
+    font-size: 15px;
+    margin: 21px;
+    text-transform: uppercase;
+  }
 
- }
-
-.underlined{
+  .underlined {
     font-size: medium;
+  }
 }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-

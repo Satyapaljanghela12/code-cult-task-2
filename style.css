@@ -147,12 +147,13 @@ a:active {
 
 .video {
   align-items: center;
-  margin-left: auto;
-  width: fit-content;
-  height: 60vh;
-  object-fit: cover;
-  z-index: -1;
-  margin-left: 12%;
+  margin-left: auto;  
+  height: 40vh;
+
+  object-fit:cover;
+  
+ width: 100%;
+  margin-left: 28%;
 }
 
 .sec-content-slide1,
